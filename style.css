@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: gainsboro;
+    height: 100%;
+}
+
+h1 {
+    padding-right: 30px;
+    padding-top: 5px;
+    font-size: 32px;
+}
+
+.topHeader {
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: lawngreen;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding: 1px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.navbar li {
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    margin: 0;
+}
