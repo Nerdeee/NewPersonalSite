@@ -1,32 +1,53 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html,
 body {
-    background-color: gainsboro;
+    background-color: blanchedalmond;
     height: 100%;
 }
 
-h1 {
-    padding-right: 30px;
-    padding-top: 5px;
-    font-size: 32px;
+.topHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-style: solid;
+    gap: 2%;
+    padding-right: 2%;
+    border-bottom-width: 3px;
+    border-width: 0px 0px 3px 0px;
+    border-bottom-color: darkslategrey;
 }
 
-.topHeader {
-    border-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: lawngreen;
-    border-color: chocolate;
-    padding-top: 5px;
-    padding: 1px;
+.topHeader img {
+    width: 3em;
+    height: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.topHeader a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.topHeader h1 {
+    margin-right: 41%;
+    font-size: 27px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
 }
 
 .navbar {
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 .navbar a {
@@ -46,4 +67,11 @@ h1 {
     padding: 5px;
     padding-right: 10px;
     margin: 0;
+}
+
+.indexContent {
+    margin: 0 auto;
+    margin-top: 2%;
+    font-size: 120%;
+    width: 50%;
 }
