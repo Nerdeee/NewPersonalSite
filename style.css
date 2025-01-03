@@ -8,6 +8,8 @@ html,
 body {
     background-color: blanchedalmond;
     height: 100%;
+    margin: 0;
+    background-size: cover;
 }
 
 .topHeader {
@@ -72,6 +74,7 @@ h1 a {
 .content {
     display: grid;
     place-items: center;
+    flex-grow: 1;
 }
 
 .indexContent {
@@ -89,6 +92,22 @@ h1 a {
     margin-bottom: 1%;
 }
 
+.experienceDiv {
+    box-sizing: border-box;
+    width: 45%;
+    max-width: 45%;
+    margin-left: -30%;
+    min-height: 100vh;
+}
+
 .experienceName {
+    margin-left: -4%;
+}
+
+.positionTitle {
+    margin-left: -4%;
+}
+
+.educationDetails {
     margin-left: -4%;
 }
